@@ -14,7 +14,7 @@ lives in the `downloads/` folder so it can be downloaded from the published site
 
 | File | Purpose |
 | --- | --- |
-| `index.html` | The six-slide presentation |
+| `index.html` | The seven-slide presentation |
 | `styles.css` | Springbok green-and-gold design, responsive layouts |
 | `script.js` | Navigation: buttons, keyboard, swipe, dots, speaking words, sources |
 | `assets/` | All photographs and the official Panorama Primary School crest (stored locally — nothing is hotlinked) |

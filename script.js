@@ -19,6 +19,7 @@
 
   var slideNames = [
     'Cover',
+    'Meet Natalie',
     'The accident',
     'Returning to the pool',
     'Beijing 2008',
@@ -27,7 +28,8 @@
   ];
 
   var notes = [
-    'Good day everyone. My South African hero is Natalie du Toit. Natalie is a famous South African swimmer. She was born in Cape Town and loved swimming from a young age.',
+    'Good day everyone. My South African hero is Natalie du Toit.',
+    'Natalie is a famous South African swimmer. She was born in Cape Town and loved swimming from a young age.',
     'When Natalie was 17 years old, she was involved in a serious scooter accident. Doctors had to amputate her left leg. That could have stopped her from following her dreams. However, she was brave and did not give up.',
     'Natalie worked hard every day and started swimming again. She became a champion Paralympic swimmer. She even competed against swimmers without disabilities.',
     'Natalie represented South Africa at the 2008 Olympic Games in Beijing. She competed in the 10-kilometre open-water race and showed that courage can take you further than anyone expects.',

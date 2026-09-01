@@ -246,7 +246,79 @@ figcaption {
 .s1-portrait img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%; }
 
 /* ==========================================================================
-   SLIDE 2 — THE ACCIDENT
+   SLIDE 2 — MEET NATALIE
+   ========================================================================== */
+
+.sm { background: linear-gradient(118deg, var(--green-deep) 0%, #005238 55%, #00301f 100%); }
+
+.sm-glow {
+  position: absolute;
+  width: 52vw; aspect-ratio: 1;
+  right: -14vw; top: -26vh;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(79,195,208,.18) 0%, transparent 65%);
+}
+
+.sm-copy {
+  position: absolute;
+  z-index: 5;
+  left: 6vw;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 47vw;
+}
+
+.sm h2 {
+  margin-top: 2.2vh;
+  font-size: clamp(40px, 5.4vw, 86px);
+  line-height: .96;
+  font-weight: 900;
+  letter-spacing: -.03em;
+  text-shadow: 0 10px 40px rgba(0,0,0,.35);
+}
+
+.sm-facts { list-style: none; margin-top: 4.2vh; }
+
+.sm-facts li {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-weight: 700;
+  font-size: clamp(17px, 1.8vw, 28px);
+  margin: 2vh 0;
+  color: var(--cream);
+}
+
+.fact-ico {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: 2em; height: 2em;
+  border-radius: 50%;
+  background: rgba(255,184,28,.16);
+  border: 2px solid var(--gold);
+  font-size: .85em;
+}
+
+.sm-photo {
+  position: absolute;
+  z-index: 5;
+  right: 6vw;
+  top: 50%;
+  transform: translateY(-50%);
+  width: clamp(280px, 36vw, 560px);
+  aspect-ratio: 720 / 470;
+  border-radius: 26px;
+  border: 6px solid rgba(255, 184, 28, .9);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.sm-photo img { width: 100%; height: 100%; object-fit: cover; }
+
+/* ==========================================================================
+   SLIDE 3 — THE ACCIDENT
    ========================================================================== */
 
 .s2 { background: var(--cream); color: var(--ink); }
@@ -603,7 +675,7 @@ figcaption {
 .progress span {
   display: block;
   height: 100%;
-  width: 16.6667%;
+  width: 14.2857%;
   background: linear-gradient(90deg, var(--gold), #ffd25e);
   transition: width .5s cubic-bezier(.22,.8,.24,1);
 }
@@ -803,7 +875,18 @@ dialog > button {
   .s1-orbit { right: -40vw; }
   .s1 .gold-rule { margin: 1.8vh 0; }
 
-  /* Slide 2: stack vertically */
+  /* Slide 2 — Meet Natalie */
+  .sm-copy { left: 7vw; right: 7vw; max-width: none; top: 9vh; transform: none; }
+  .sm h2 { font-size: 9.4vw; }
+  .sm-facts { margin-top: 2.4vh; }
+  .sm-facts li { font-size: 4.4vw; margin: 1.4vh 0; }
+  .sm-photo {
+    right: 50%; transform: translate(50%, 0); top: auto; bottom: 15.5vh;
+    width: min(76vw, 350px);
+    border-width: 4px;
+  }
+
+  /* Slide 3 — accident: stack vertically */
   .s2-panel {
     inset: 0 0 auto 0;
     width: 100%;

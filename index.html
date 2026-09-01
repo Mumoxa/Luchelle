@@ -7,13 +7,13 @@
   <meta name="description" content="My South African Hero — Natalie du Toit. A Grade 3 oral presentation by Luchelle Crafford, Panorama Primary School.">
   <title>Luchelle Crafford | My South African Hero — Natalie du Toit</title>
   <link rel="icon" href="assets/panorama-crest.png" type="image/png">
-  <link rel="stylesheet" href="styles.css?v=3">
+  <link rel="stylesheet" href="styles.css?v=4">
 </head>
 <body>
   <main class="deck" id="deck">
 
     <!-- SLIDE 1 — COVER -->
-    <section class="slide s1 active" data-slide="1" aria-label="Slide 1 of 6: Cover" aria-hidden="false">
+    <section class="slide s1 active" data-slide="1" aria-label="Slide 1 of 7: Cover" aria-hidden="false">
       <div class="s1-orbit" aria-hidden="true"></div>
       <div class="s1-orbit2" aria-hidden="true"></div>
       <header class="brand">
@@ -36,8 +36,27 @@
       </svg>
     </section>
 
-    <!-- SLIDE 2 — THE ACCIDENT -->
-    <section class="slide s2" data-slide="2" aria-label="Slide 2 of 6: The accident" aria-hidden="true">
+    <!-- SLIDE 2 — MEET NATALIE -->
+    <section class="slide sm" data-slide="2" aria-label="Slide 2 of 7: Meet Natalie" aria-hidden="true">
+      <div class="sm-glow" aria-hidden="true"></div>
+      <div class="sm-copy">
+        <p class="eyebrow"><span class="flag-dot" aria-hidden="true"></span>Meet my hero</p>
+        <h2>A swimmer from<br>Cape&nbsp;Town</h2>
+        <ul class="sm-facts">
+          <li><span class="fact-ico" aria-hidden="true">&#9733;</span>Born in Cape Town</li>
+          <li><span class="fact-ico" aria-hidden="true">&#8776;</span>Loved swimming from a young age</li>
+          <li><span class="fact-ico" aria-hidden="true">&#10003;</span>Became a famous South African swimmer</li>
+        </ul>
+      </div>
+      <figure class="sm-photo">
+        <img src="assets/natalie-capetown.jpg" alt="Natalie du Toit swimming butterfly in a Cape Town pool with mountains behind her">
+        <figcaption>Training in Cape Town</figcaption>
+      </figure>
+      <img class="crest-mini" src="assets/panorama-crest.png" alt="" aria-hidden="true">
+    </section>
+
+    <!-- SLIDE 3 — THE ACCIDENT -->
+    <section class="slide s2" data-slide="3" aria-label="Slide 3 of 7: The accident" aria-hidden="true">
       <div class="s2-panel">
         <p class="s2-big">17</p>
         <p class="s2-years">Years old</p>
@@ -58,8 +77,8 @@
       <img class="crest-mini crest-on-light" src="assets/panorama-crest.png" alt="" aria-hidden="true">
     </section>
 
-    <!-- SLIDE 3 — RETURNING TO THE POOL -->
-    <section class="slide s3" data-slide="3" aria-label="Slide 3 of 6: Returning to the pool" aria-hidden="true">
+    <!-- SLIDE 4 — RETURNING TO THE POOL -->
+    <section class="slide s3" data-slide="4" aria-label="Slide 4 of 7: Returning to the pool" aria-hidden="true">
       <img class="s3-photo" src="assets/natalie-swimming.jpg" alt="Natalie du Toit swimming butterfly in a South African RSA swimming cap">
       <div class="s3-shade" aria-hidden="true"></div>
       <div class="s3-copy">
@@ -70,8 +89,8 @@
       <img class="crest-mini" src="assets/panorama-crest.png" alt="" aria-hidden="true">
     </section>
 
-    <!-- SLIDE 4 — BEIJING 2008 -->
-    <section class="slide s4" data-slide="4" aria-label="Slide 4 of 6: Beijing 2008" aria-hidden="true">
+    <!-- SLIDE 5 — BEIJING 2008 -->
+    <section class="slide s4" data-slide="5" aria-label="Slide 5 of 7: Beijing 2008" aria-hidden="true">
       <div class="s4-glow" aria-hidden="true"></div>
       <div class="s4-copy">
         <p class="s4-year">2008</p>
@@ -87,8 +106,8 @@
       <img class="crest-mini" src="assets/panorama-crest.png" alt="" aria-hidden="true">
     </section>
 
-    <!-- SLIDE 5 — WHY SHE IS MY HERO -->
-    <section class="slide s5" data-slide="5" aria-label="Slide 5 of 6: Why she is my hero" aria-hidden="true">
+    <!-- SLIDE 6 — WHY SHE IS MY HERO -->
+    <section class="slide s5" data-slide="6" aria-label="Slide 6 of 7: Why she is my hero" aria-hidden="true">
       <figure class="s5-photo">
         <img src="assets/luchelle-medal.jpg" alt="Luchelle Crafford smiling with her Western Cape gymnastics medal">
         <figcaption>Luchelle with her gymnastics medal</figcaption>
@@ -103,8 +122,8 @@
       <img class="crest-mini crest-on-light" src="assets/panorama-crest.png" alt="" aria-hidden="true">
     </section>
 
-    <!-- SLIDE 6 — WHAT NATALIE TAUGHT ME -->
-    <section class="slide s6" data-slide="6" aria-label="Slide 6 of 6: What Natalie taught me" aria-hidden="true">
+    <!-- SLIDE 7 — WHAT NATALIE TAUGHT ME -->
+    <section class="slide s6" data-slide="7" aria-label="Slide 7 of 7: What Natalie taught me" aria-hidden="true">
       <header class="brand">
         <img src="assets/panorama-crest.png" alt="Panorama Primary School crest">
         <span>Panorama Primary School</span>
@@ -133,16 +152,17 @@
     <div class="progress" aria-hidden="true"><span id="progressFill"></span></div>
     <div class="dots" role="tablist" aria-label="Go to slide">
       <button class="dot active" role="tab" aria-selected="true" data-goto="0" aria-label="Slide 1: Cover"></button>
-      <button class="dot" role="tab" aria-selected="false" data-goto="1" aria-label="Slide 2: The accident"></button>
-      <button class="dot" role="tab" aria-selected="false" data-goto="2" aria-label="Slide 3: Returning to the pool"></button>
-      <button class="dot" role="tab" aria-selected="false" data-goto="3" aria-label="Slide 4: Beijing 2008"></button>
-      <button class="dot" role="tab" aria-selected="false" data-goto="4" aria-label="Slide 5: Why she is my hero"></button>
-      <button class="dot" role="tab" aria-selected="false" data-goto="5" aria-label="Slide 6: What Natalie taught me"></button>
+      <button class="dot" role="tab" aria-selected="false" data-goto="1" aria-label="Slide 2: Meet Natalie"></button>
+      <button class="dot" role="tab" aria-selected="false" data-goto="2" aria-label="Slide 3: The accident"></button>
+      <button class="dot" role="tab" aria-selected="false" data-goto="3" aria-label="Slide 4: Returning to the pool"></button>
+      <button class="dot" role="tab" aria-selected="false" data-goto="4" aria-label="Slide 5: Beijing 2008"></button>
+      <button class="dot" role="tab" aria-selected="false" data-goto="5" aria-label="Slide 6: Why she is my hero"></button>
+      <button class="dot" role="tab" aria-selected="false" data-goto="6" aria-label="Slide 7: What Natalie taught me"></button>
     </div>
-    <div class="counter" aria-live="polite"><span id="current">01</span><em>/</em>06</div>
+    <div class="counter" aria-live="polite"><span id="current">01</span><em>/</em>07</div>
     <nav class="controls" aria-label="Presentation controls">
       <button id="prev" type="button" aria-label="Previous slide">&#8592;</button>
-      <button id="notesBtn" type="button" aria-expanded="false" aria-controls="notesPanel">&#128483; Speaking words</button>
+      <button id="notesBtn" type="button" aria-expanded="false" aria-controls="notesPanel">Speaking words</button>
       <button id="next" type="button" aria-label="Next slide">&#8594;</button>
     </nav>
     <button id="sourcesBtn" class="sources-button" type="button">Sources</button>
@@ -170,6 +190,7 @@
     <ul>
       <li><strong>Beijing 2008 medal photo:</strong> <a href="https://commons.wikimedia.org/wiki/File:Natalie_du_Toit_-_Women%27s_S9_100m_butterfly_medallists_-_3b_-_crop_(cropped).jpg" target="_blank" rel="noopener">Wikimedia Commons</a> — Heath Campanaro / Australian Paralympic Committee, 7 September 2008, CC&nbsp;BY-SA&nbsp;3.0.</li>
       <li><strong>Swimming action photo (RSA cap):</strong> via <a href="https://www.commonwealthsport.com/news/4183180/where-are-they-now-natalie-du-toit" target="_blank" rel="noopener">Commonwealth Sport — Where are they now: Natalie du Toit</a>.</li>
+      <li><strong>Cape Town training photo:</strong> via <a href="https://swimhistory.co.za/index.php/disabled-swimmers/natalie-du-toit" target="_blank" rel="noopener">South African Swimming History &mdash; Natalie du Toit</a>.</li>
       <li><strong>Laureus award photo:</strong> via <a href="https://swimhistory.co.za/index.php/disabled-swimmers/natalie-du-toit" target="_blank" rel="noopener">South African Swimming History — Natalie du Toit</a>.</li>
     </ul>
     <h3>School branding &amp; family photos</h3>
@@ -181,6 +202,6 @@
     <p class="accessed"><a href="downloads/Luchelle_Crafford_My_South_African_Hero.pptx" download>&#11015; Download the editable PowerPoint version</a></p>
   </dialog>
 
-  <script src="script.js?v=3"></script>
+  <script src="script.js?v=4"></script>
 </body>
 </html>
