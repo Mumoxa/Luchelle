@@ -4,107 +4,183 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#004b36">
-  <title>Luchelle Crafford | My South African Hero</title>
-  <link rel="stylesheet" href="styles.css?v=2">
+  <meta name="description" content="My South African Hero — Natalie du Toit. A Grade 3 oral presentation by Luchelle Crafford, Panorama Primary School.">
+  <title>Luchelle Crafford | My South African Hero — Natalie du Toit</title>
+  <link rel="icon" href="assets/panorama-crest.png" type="image/png">
+  <link rel="stylesheet" href="styles.css?v=3">
 </head>
 <body>
-  <main class="deck" aria-live="polite">
-    <section class="slide cover active" data-slide="1" aria-label="Slide 1 of 6">
-      <div class="orbit"></div>
-      <header class="school"><img src="assets/panorama-logo.png" alt="Panorama Primary School crest"><span>Panorama Primary School</span></header>
-      <div class="copy">
-        <p class="eyebrow">My South African Hero</p>
-        <h1>Natalie<br>du Toit</h1>
+  <main class="deck" id="deck">
+
+    <!-- SLIDE 1 — COVER -->
+    <section class="slide s1 active" data-slide="1" aria-label="Slide 1 of 6: Cover" aria-hidden="false">
+      <div class="s1-orbit" aria-hidden="true"></div>
+      <div class="s1-orbit2" aria-hidden="true"></div>
+      <header class="brand">
+        <img src="assets/panorama-crest.png" alt="Panorama Primary School crest">
+        <span>Panorama Primary School</span>
+      </header>
+      <div class="s1-copy">
+        <p class="eyebrow"><span class="flag-dot" aria-hidden="true"></span>My South African Hero</p>
+        <h1>Natalie<br>du&nbsp;Toit</h1>
+        <div class="gold-rule" aria-hidden="true"></div>
         <p class="byline">Presented by <strong>Luchelle Crafford</strong></p>
-        <p class="grade">Grade 3A1</p>
+        <p class="grade">Grade 3A1 &bull; Panorama Primary School</p>
       </div>
-      <div class="portrait-ring"><img src="assets/luchelle-cover.jpg" alt="Luchelle smiling in her Panorama Primary School uniform"></div>
+      <figure class="s1-portrait">
+        <img src="assets/luchelle-cover.jpg" alt="Luchelle Crafford smiling in her Panorama Primary School uniform">
+      </figure>
+      <svg class="wave" viewBox="0 0 1440 110" preserveAspectRatio="none" aria-hidden="true">
+        <path class="wave-back" d="M0,64 C240,110 480,10 720,50 C960,90 1200,20 1440,60 L1440,110 L0,110 Z"/>
+        <path class="wave-front" d="M0,80 C260,30 520,105 780,70 C1040,35 1260,95 1440,75 L1440,110 L0,110 Z"/>
+      </svg>
     </section>
 
-    <section class="slide accident" data-slide="2" aria-label="Slide 2 of 6">
-      <div class="age-panel"><strong>17</strong><span>years old</span></div>
-      <div class="story">
+    <!-- SLIDE 2 — THE ACCIDENT -->
+    <section class="slide s2" data-slide="2" aria-label="Slide 2 of 6: The accident" aria-hidden="true">
+      <div class="s2-panel">
+        <p class="s2-big">17</p>
+        <p class="s2-years">Years old</p>
+        <div class="s2-waveline" aria-hidden="true"></div>
+      </div>
+      <div class="s2-story">
         <h2>A serious scooter accident changed her life.</h2>
-        <p>Doctors had to amputate her left leg.</p>
-        <div class="photo-frame"><img src="assets/natalie-laureus.png" alt="Natalie du Toit smiling while holding her Laureus award"></div>
-        <p class="takeaway">Brave <i></i> Did not give up</p>
+        <p class="s2-sub">Doctors had to amputate her left&nbsp;leg.</p>
+        <div class="pills">
+          <span class="pill pill-red">Brave</span>
+          <span class="pill pill-green">Did not give up</span>
+        </div>
       </div>
+      <figure class="s2-photo">
+        <img src="assets/natalie-positive.jpg" alt="Natalie du Toit smiling proudly while holding her Laureus award">
+        <figcaption>Natalie with her Laureus award</figcaption>
+      </figure>
+      <img class="crest-mini crest-on-light" src="assets/panorama-crest.png" alt="" aria-hidden="true">
     </section>
 
-    <section class="slide return" data-slide="3" aria-label="Slide 3 of 6">
-      <img class="full" src="assets/natalie-swimming.jpg" alt="Natalie du Toit swimming butterfly for South Africa">
-      <div class="shade"></div>
-      <header class="school"><img src="assets/panorama-logo.png" alt="Panorama Primary School crest"><span>Panorama Primary School</span></header>
-      <div class="copy">
+    <!-- SLIDE 3 — RETURNING TO THE POOL -->
+    <section class="slide s3" data-slide="3" aria-label="Slide 3 of 6: Returning to the pool" aria-hidden="true">
+      <img class="s3-photo" src="assets/natalie-swimming.jpg" alt="Natalie du Toit swimming butterfly in a South African RSA swimming cap">
+      <div class="s3-shade" aria-hidden="true"></div>
+      <div class="s3-copy">
+        <p class="eyebrow eyebrow-gold">Courage in action</p>
         <h2>She chose to<br>start again.</h2>
-        <p>She worked hard every day<br>and returned to the pool.</p>
-        <strong>Courage in action</strong>
+        <p class="s3-sub">She worked hard every day<br>and returned to the pool.</p>
       </div>
+      <img class="crest-mini" src="assets/panorama-crest.png" alt="" aria-hidden="true">
     </section>
 
-    <section class="slide beijing" data-slide="4" aria-label="Slide 4 of 6">
-      <header class="school"><img src="assets/panorama-logo.png" alt="Panorama Primary School crest"><span>Panorama Primary School</span></header>
-      <div class="copy">
-        <h2>2008</h2>
-        <p class="event">Olympic Games</p>
-        <p class="place">Beijing</p>
-        <p class="message">She represented<br>South Africa.</p>
+    <!-- SLIDE 4 — BEIJING 2008 -->
+    <section class="slide s4" data-slide="4" aria-label="Slide 4 of 6: Beijing 2008" aria-hidden="true">
+      <div class="s4-glow" aria-hidden="true"></div>
+      <div class="s4-copy">
+        <p class="s4-year">2008</p>
+        <p class="s4-event">Olympic Games</p>
+        <p class="s4-place">Beijing</p>
+        <div class="gold-rule" aria-hidden="true"></div>
+        <p class="s4-message">She represented<br><strong>South Africa.</strong></p>
       </div>
-      <img class="medal-photo" src="assets/natalie-portrait.jpg" alt="Natalie du Toit in South African green and gold holding her Beijing 2008 Paralympic gold medal">
+      <figure class="s4-photo">
+        <img src="assets/natalie-beijing.jpg" alt="Natalie du Toit in South African green and gold holding her Beijing 2008 gold medal">
+        <figcaption>Beijing 2008 &bull; gold medal</figcaption>
+      </figure>
+      <img class="crest-mini" src="assets/panorama-crest.png" alt="" aria-hidden="true">
     </section>
 
-    <section class="slide hero" data-slide="5" aria-label="Slide 5 of 6">
-      <img class="luchelle-medal" src="assets/luchelle-medal.jpg" alt="Luchelle with her gymnastics medal">
-      <header class="school"><img src="assets/panorama-logo.png" alt="Panorama Primary School crest"><span>Panorama Primary School</span></header>
-      <div class="copy">
+    <!-- SLIDE 5 — WHY SHE IS MY HERO -->
+    <section class="slide s5" data-slide="5" aria-label="Slide 5 of 6: Why she is my hero" aria-hidden="true">
+      <figure class="s5-photo">
+        <img src="assets/luchelle-medal.jpg" alt="Luchelle Crafford smiling with her Western Cape gymnastics medal">
+        <figcaption>Luchelle with her gymnastics medal</figcaption>
+      </figure>
+      <div class="s5-copy">
+        <p class="eyebrow eyebrow-green">Just like my hero, I keep going</p>
         <h2>Why she is<br>my hero</h2>
-        <p>She was a great swimmer.</p>
-        <hr>
-        <strong>Most importantly,<br>she never gave up.</strong>
+        <p class="s5-line">She was a great swimmer.</p>
+        <div class="gold-rule" aria-hidden="true"></div>
+        <p class="s5-strong">Most importantly,<br>she never gave up.</p>
       </div>
+      <img class="crest-mini crest-on-light" src="assets/panorama-crest.png" alt="" aria-hidden="true">
     </section>
 
-    <section class="slide lesson" data-slide="6" aria-label="Slide 6 of 6">
-      <header class="school"><img src="assets/panorama-logo.png" alt="Panorama Primary School crest"><span>Panorama Primary School</span></header>
-      <div class="copy">
-        <h2>Natalie taught me to…</h2>
-        <ul>
-          <li>Keep trying</li><li>Believe in myself</li><li>Work hard</li><li>Never give up</li>
+    <!-- SLIDE 6 — WHAT NATALIE TAUGHT ME -->
+    <section class="slide s6" data-slide="6" aria-label="Slide 6 of 6: What Natalie taught me" aria-hidden="true">
+      <header class="brand">
+        <img src="assets/panorama-crest.png" alt="Panorama Primary School crest">
+        <span>Panorama Primary School</span>
+      </header>
+      <div class="s6-copy">
+        <h2>Natalie taught me to&hellip;</h2>
+        <ul class="s6-list">
+          <li><span class="tick" aria-hidden="true">&#10003;</span>Keep trying</li>
+          <li><span class="tick" aria-hidden="true">&#10003;</span>Believe in myself</li>
+          <li><span class="tick" aria-hidden="true">&#10003;</span>Work hard</li>
+          <li><span class="tick" aria-hidden="true">&#10003;</span>Never give up</li>
         </ul>
-        <blockquote>“You inspire me to never give up on my dreams.”</blockquote>
+        <blockquote>&ldquo;You inspire me to never give up on my&nbsp;dreams.&rdquo;</blockquote>
       </div>
-      <div class="lesson-photo"><img src="assets/luchelle-school.jpg" alt="Luchelle smiling in her Grade 3 classroom"></div>
+      <figure class="s6-photo">
+        <img src="assets/luchelle-school.jpg" alt="Luchelle Crafford smiling confidently in her classroom at Panorama Primary School">
+        <figcaption>Luchelle &bull; Grade 3A1</figcaption>
+      </figure>
+      <svg class="wave wave-s6" viewBox="0 0 1440 110" preserveAspectRatio="none" aria-hidden="true">
+        <path class="wave-back" d="M0,64 C240,110 480,10 720,50 C960,90 1200,20 1440,60 L1440,110 L0,110 Z"/>
+        <path class="wave-front" d="M0,80 C260,30 520,105 780,70 C1040,35 1260,95 1440,75 L1440,110 L0,110 Z"/>
+      </svg>
     </section>
 
-    <div class="progress" aria-hidden="true"><span></span></div>
-    <div class="counter" aria-label="Current slide"><span id="current">01</span> / 06</div>
-    <nav aria-label="Presentation controls">
-      <button id="prev" type="button" aria-label="Previous slide">←</button>
-      <button id="notes" type="button" aria-label="Show Luchelle's speaking words">Speaking words</button>
-      <button id="next" type="button" aria-label="Next slide">→</button>
+    <!-- CHROME -->
+    <div class="progress" aria-hidden="true"><span id="progressFill"></span></div>
+    <div class="dots" role="tablist" aria-label="Go to slide">
+      <button class="dot active" role="tab" aria-selected="true" data-goto="0" aria-label="Slide 1: Cover"></button>
+      <button class="dot" role="tab" aria-selected="false" data-goto="1" aria-label="Slide 2: The accident"></button>
+      <button class="dot" role="tab" aria-selected="false" data-goto="2" aria-label="Slide 3: Returning to the pool"></button>
+      <button class="dot" role="tab" aria-selected="false" data-goto="3" aria-label="Slide 4: Beijing 2008"></button>
+      <button class="dot" role="tab" aria-selected="false" data-goto="4" aria-label="Slide 5: Why she is my hero"></button>
+      <button class="dot" role="tab" aria-selected="false" data-goto="5" aria-label="Slide 6: What Natalie taught me"></button>
+    </div>
+    <div class="counter" aria-live="polite"><span id="current">01</span><em>/</em>06</div>
+    <nav class="controls" aria-label="Presentation controls">
+      <button id="prev" type="button" aria-label="Previous slide">&#8592;</button>
+      <button id="notesBtn" type="button" aria-expanded="false" aria-controls="notesPanel">&#128483; Speaking words</button>
+      <button id="next" type="button" aria-label="Next slide">&#8594;</button>
     </nav>
+    <button id="sourcesBtn" class="sources-button" type="button">Sources</button>
   </main>
 
-  <aside id="notesPanel" class="notes-panel" aria-hidden="true">
-    <button id="closeNotes" aria-label="Close speaking words">×</button>
-    <p class="notes-label">Luchelle says</p>
+  <!-- SPEAKING WORDS PANEL -->
+  <aside id="notesPanel" class="notes-panel" aria-hidden="true" role="region" aria-label="Luchelle's speaking words">
+    <button id="closeNotes" type="button" aria-label="Close speaking words">&times;</button>
+    <p class="notes-label">Luchelle says &mdash; <span id="notesSlideName">Cover</span></p>
     <p id="notesText"></p>
   </aside>
 
-  <button id="sourceButton" class="source-button" type="button">Sources</button>
-  <dialog id="sources">
-    <button id="closeSources" aria-label="Close sources">×</button>
-    <h2>Sources and image credits</h2>
+  <!-- SOURCES -->
+  <dialog id="sourcesDialog" aria-label="Sources and image credits">
+    <button id="closeSources" type="button" aria-label="Close sources">&times;</button>
+    <h2>Sources &amp; image credits</h2>
+    <h3>Facts about Natalie du Toit</h3>
     <ul>
-      <li><a href="https://www.paralympic.org/news/day-natalie-toit-made-olympic-history">World Para Swimming: Natalie’s Olympic history</a></li>
-      <li><a href="https://www.gov.za/about-government/natalie-du-toit">South African Government: Natalie du Toit</a></li>
-      <li><a href="https://commons.wikimedia.org/wiki/Category:Natalie_du_Toit">Wikimedia Commons: Beijing portrait</a></li>
-      <li><a href="https://www.commonwealthsport.com/news/4183180/where-are-they-now-natalie-du-toit">Commonwealth Sport: swimming image</a></li>
-      <li><a href="https://swimhistory.co.za/index.php/disabled-swimmers/natalie-du-toit">Swim History: Laureus award photograph</a></li>
-      <li><a href="https://www.panoramaps.co.za/">Panorama Primary School</a></li>
-      <li>Luchelle’s photographs supplied by the Crafford family.</li>
+      <li><a href="https://www.britannica.com/biography/Natalie-du-Toit" target="_blank" rel="noopener">Encyclopaedia Britannica — Natalie du Toit</a> (born Cape Town, 29 January 1984; accident 2001; left leg amputated at the knee; first female amputee at an Olympic Games; five Paralympic golds in Beijing; flag bearer)</li>
+      <li><a href="https://www.espn.com/olympics/swimming/news/story?id=3379722" target="_blank" rel="noopener">ESPN / Associated Press (3 May 2008)</a> (qualified for Beijing 2008 in the 10&nbsp;km open water; first amputee in an able-bodied major final, 800&nbsp;m freestyle, 2002 Commonwealth Games)</li>
+      <li><a href="https://www.independent.co.uk/sport/olympics/natalie-du-toit-if-i-can-achieve-a-dream-then-anyone-can-1688566.html" target="_blank" rel="noopener">The Independent — “If I can achieve a dream, then anyone can”</a> (scooter accident on 25 February 2001, aged 17; 16th place in the Olympic 10&nbsp;km)</li>
+      <li><a href="https://www.paralympic.org/news/day-natalie-toit-made-olympic-history" target="_blank" rel="noopener">Paralympic.org — The day Natalie du Toit made Olympic history</a></li>
     </ul>
+    <h3>Photographs of Natalie</h3>
+    <ul>
+      <li><strong>Beijing 2008 medal photo:</strong> <a href="https://commons.wikimedia.org/wiki/File:Natalie_du_Toit_-_Women%27s_S9_100m_butterfly_medallists_-_3b_-_crop_(cropped).jpg" target="_blank" rel="noopener">Wikimedia Commons</a> — Heath Campanaro / Australian Paralympic Committee, 7 September 2008, CC&nbsp;BY-SA&nbsp;3.0.</li>
+      <li><strong>Swimming action photo (RSA cap):</strong> via <a href="https://www.commonwealthsport.com/news/4183180/where-are-they-now-natalie-du-toit" target="_blank" rel="noopener">Commonwealth Sport — Where are they now: Natalie du Toit</a>.</li>
+      <li><strong>Laureus award photo:</strong> via <a href="https://swimhistory.co.za/index.php/disabled-swimmers/natalie-du-toit" target="_blank" rel="noopener">South African Swimming History — Natalie du Toit</a>.</li>
+    </ul>
+    <h3>School branding &amp; family photos</h3>
+    <ul>
+      <li><strong>School crest:</strong> official crest from <a href="https://www.panoramaps.co.za/" target="_blank" rel="noopener">Panorama Primary School</a>.</li>
+      <li><strong>Photographs of Luchelle:</strong> kindly supplied by the Crafford family.</li>
+    </ul>
+    <p class="accessed">Facts re-verified and pages accessed on 1 September 2026.</p>
+    <p class="accessed"><a href="downloads/Luchelle_Crafford_My_South_African_Hero.pptx" download>&#11015; Download the editable PowerPoint version</a></p>
   </dialog>
-  <script src="script.js"></script>
+
+  <script src="script.js?v=3"></script>
 </body>
 </html>
